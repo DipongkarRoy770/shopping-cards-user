@@ -45,60 +45,60 @@
         <div class="card card-compact w-full bg-base-100 shadow-xl">
           <figure><img class="w-full h-36" src="./img/coffee.jpg" alt="Shoes" /></figure>
           <div class="card-body">
-            <h2 class="card-title">coffee Js</h2>
+            <h2 id="coffee" class="card-title">coffee Js</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
-            <p>Price:$<span>110</span></p>
-            <p>Quntatity:<span>10</span></p>
+            <p>Price:$<span id="price-1">110</span></p>
+            <p>Quntatity:<span id="quntatity-1">10</span></p>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
+              <button  id="by-now1" class="btn btn-primary">Buy Now</button>
             </div>
           </div>
         </div>
         <div class="card card-compact w-full bg-base-100 shadow-xl">
           <figure><img class="w-full h-36" src="./img/heart_js.jpg" alt="Shoes" /></figure>
           <div class="card-body">
-            <h2 class="card-title">Burn Js</h2>
+            <h2 id="burn" class="card-title">Burn Js</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
-            <p>Price:$<span>220</span></p>
-            <p>Quntatity:<span>5</span></p>
+            <p>Price:$<span id="price-2">220</span></p>
+            <p>Quntatity:<span id="quntatity-2">5</span></p>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
+              <button id="btn-2" class="btn btn-primary">Buy Now</button>
             </div>
           </div>
         </div>
         <div class="card card-compact w-full bg-base-100 shadow-xl">
           <figure><img class="w-full h-36" src="./img/panda.png" alt="Shoes" /></figure>
           <div class="card-body">
-            <h2 class="card-title">coffee Js</h2>
+            <h2 id="panda-three" class="card-title">Panda Js</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
-            <p>Price:$<span>150</span></p>
-            <p>Quntatity:<span>10</span></p>
+            <p>Price:$<span id="price-3">150</span></p>
+            <p>Quntatity:<span id="quntatity-3">10</span></p>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
+              <button id="btn-3" class="btn btn-primary">Buy Now</button>
             </div>
           </div>
         </div>
         <div class="card card-compact w-full bg-base-100 shadow-xl">
           <figure><img class="w-full h-36" src="./img/umbrella.png" alt="Shoes" /></figure>
           <div class="card-body">
-            <h2 class="card-title">coffee Js</h2>
+            <h2 id="umbrella" class="card-title">umbrella Js</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
-            <p>Price:$<span>250</span></p>
-            <p>Quntatity:<span>15</span></p>
+            <p>Price:$<span id="last-price">250</span></p>
+            <p>Quntatity:<span id="last-quntatity">15</span></p>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
+              <button id="last-btn" class="btn btn-primary">Buy Now</button>
             </div>
           </div>
         </div>
         <div class="card card-compact w-full bg-base-100 shadow-xl">
           <figure><img class="w-full h-36" src="./img/vue-js.jpg" alt="Shoes" /></figure>
           <div class="card-body">
-            <h2 class="card-title">coffee Js</h2>
+            <h2 id="vue-js" class="card-title">Vue Js</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
-            <input type="text" placeholder="Price" class="bg-pink-200 py-1 pl-2 text-xl">
-            <input type="text" placeholder="Quntatity" class="bg-pink-200 py-1 pl-2 text-xl ">
+            <input id="input-price" type="text" placeholder="Price" class="bg-pink-200 py-1 pl-2 text-xl">
+            <input id="user-quntatity" type="text" placeholder="Quntatity" class="bg-pink-200 py-1 pl-2 text-xl ">
             <div class="card-actions justify-end">
-              <button class="btn btn-primary">Buy Now</button>
+              <button id="input-btn" class="btn btn-primary">Buy Now</button>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@
       <div class="card-details bg-purple-100 w-[35%] ml-3">
         <h1 class="text-3xl text-center font-bold underline">Total Product:<span>0</span></h1>
         <!--table crateing-->
-        <div class="overflow-x-auto underline">
+        <div class="overflow-mx-auto">
           <table class="table w-full">
             <!-- head -->
             <thead>
@@ -118,6 +118,15 @@
                 <th>Total</th>
               </tr>
             </thead>
+            <tbody id="table-container">
+              <!-- <tr class="table-raw">
+                <td>1</td>
+                <td>Dipongkar roy</td>
+                <td>pohela falgun</td>
+                <td>delta bon</td>
+                <td>4352</td>
+              </tr> -->
+            </tbody>
           </table>
         </div>
       </div>
