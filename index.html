@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Object MOdel shopping cards javascript</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<header>
+  <div class="navbar bg-base-100 px-24 shadow-md">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    </div>
+    <div class="flex-none gap-2">
+      <div class="form-control">
+        <input type="text" placeholder="Search" class="input input-bordered" />
+      </div>
+      <div class="dropdown dropdown-end">
+        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+          <div class="w-10 rounded-full">
+            <img src="https://random.imagecdn.app/v1/image?width=500&height=150
+            " />
+          </div>
+        </label>
+        <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+          <li>
+            <a class="justify-between">
+              Profile
+              <span class="badge">New</span>
+            </a>
+          </li>
+          <li><a>Settings</a></li>
+          <li><a>Logout</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<body>
+    <section class="px-4 pt-4 flex flex-col md:flex-row lg:flex-row">
+      <div class=" product-details grid md:grid-cols-2 lg:grid-cols-3 w-[65%] gap-4">
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-36" src="./img/coffee.jpg" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">coffee Js</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
+            <p>Price:$<span>110</span></p>
+            <p>Quntatity:<span>10</span></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-36" src="./img/heart_js.jpg" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Burn Js</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
+            <p>Price:$<span>220</span></p>
+            <p>Quntatity:<span>5</span></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-36" src="./img/panda.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">coffee Js</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
+            <p>Price:$<span>150</span></p>
+            <p>Quntatity:<span>10</span></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-36" src="./img/umbrella.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">coffee Js</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
+            <p>Price:$<span>250</span></p>
+            <p>Quntatity:<span>15</span></p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card card-compact w-full bg-base-100 shadow-xl">
+          <figure><img class="w-full h-36" src="./img/vue-js.jpg" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">coffee Js</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique vitae dolorum illo.</p>
+            <input type="text" placeholder="Price" class="bg-pink-200 py-1 pl-2 text-xl">
+            <input type="text" placeholder="Quntatity" class="bg-pink-200 py-1 pl-2 text-xl ">
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-details bg-purple-100 w-[35%] ml-3">
+        <h1 class="text-3xl text-center font-bold underline">Total Product:<span>0</span></h1>
+        <!--table crateing-->
+        <div class="overflow-x-auto underline">
+          <table class="table w-full">
+            <!-- head -->
+            <thead>
+              <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quntatity</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </section>
+  <script src="/main.js"></script>
+</body>
+</html>

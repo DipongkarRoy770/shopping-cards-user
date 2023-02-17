@@ -1,0 +1,1 @@
+console.log('ami tomlawe valo lahe na vaule jaa')
